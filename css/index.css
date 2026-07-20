@@ -179,10 +179,9 @@ h6 {
     min-height: 810px;
 
     .hero {
-        height: 810px;
-        /* background-image: url('../images/hero-bg.png'); */
+        min-height: 810px;
         background-repeat: no-repeat;
-        background-position: center top;
+        background-position: center bottom;
         background-size: cover;
     }
 
@@ -255,6 +254,24 @@ h6 {
     bottom: 0;
     left: 60px;
     z-index: 1;
+}
+
+.ab-play {
+    position: absolute;
+    width: 90px;
+    height: 91px;
+    left: 190px;
+    top: 206px;
+    background: #F26727;
+    border-radius: 100%;
+}
+
+.play {
+    position: absolute;
+    top: 30px;
+    left: 36px;
+    cursor: pointer;
+
 }
 
 .about-badge-wrap {
@@ -355,7 +372,8 @@ h6 {
 
 .products-masala-art {
     position: absolute;
-    right: -100px;
+    right: 0;
+    top: 0;
     width: 305px;
     height: 236px;
     mix-blend-mode: multiply;
@@ -363,8 +381,8 @@ h6 {
 
 .products-flower-art {
     position: absolute;
-    left: -70px;
-    bottom: -157px;
+    left: 0;
+    bottom: 0;
     width: 122px;
     height: 387px;
     mix-blend-mode: multiply;
