@@ -155,7 +155,6 @@ h6 {
 
 .site-nav .nav-link.active,
 .site-nav .nav-link:hover {
-    background-color: var(--brand-green);
     font-weight: 700;
     text-decoration: underline;
     text-decoration-thickness: 2px;
