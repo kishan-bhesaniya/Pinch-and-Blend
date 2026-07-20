@@ -552,3 +552,19 @@ h6 {
     border-color: #066B38;
     color: #ffffff;
 }
+
+.qua-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 16px;
+}
+
+.qua-pill span{
+    color: #FFFFFF;
+    font-weight: bold;
+}
