@@ -149,7 +149,8 @@ h6 {
     transition: none;
 }
 
-.site-nav .nav-link.active {
+.site-nav .nav-link.active,
+.site-nav .nav-link:hover {
     color: #066B38;
     font-weight: 700;
     text-decoration: underline;
@@ -365,11 +366,6 @@ h6 {
     z-index: 0;
 }
 
-.products-shell {
-    position: relative;
-    padding: 0 50px;
-}
-
 .products-masala-art {
     position: absolute;
     right: 0;
@@ -431,49 +427,37 @@ h6 {
     color: #f26727;
 }
 
-.products-grid {
-    position: relative;
-    z-index: 2;
-    margin-top: 50px;
-    --bs-gutter-x: 0;
-}
-
 .product-card {
     position: relative;
-    width: 100%;
-    max-width: 370px;
-    padding-top: 72px;
-}
-
-.product-pack {
-    position: absolute;
-    top: -70px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 195px;
-    height: 261px;
-    object-fit: contain;
-    filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.14));
-}
-
-.product-card-body {
-    width: 100%;
-    min-height: 373px;
-    padding: 126px 30px 24px;
-    background: #ffffff;
-    border: 1px solid #d8d8d8;
-    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
-.product-card-body h3 {
+.product-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    top: 165px;
+    z-index: -1;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+}
+
+.pro-disc {
+    padding: 15px 30px 30px;
+}
+
+.pro-disc h3 {
     font-size: 18px;
     line-height: 26px;
     color: #333333;
     white-space: nowrap;
 }
 
-.product-card-body p {
+.pro-disc p {
     width: 100%;
     font-size: 17px;
     line-height: 26px;
@@ -481,7 +465,7 @@ h6 {
     margin-bottom: 24px;
 }
 
-.product-price {
+.pro-disc h4 {
     margin-bottom: 26px;
     font-family: 'Outfit', sans-serif;
     font-size: 24px;
@@ -495,31 +479,34 @@ h6 {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    width: 151px;
-    height: 43px;
     border-radius: 6px;
     border: 1px solid #f26727;
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
-    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+    color: #f26727;
+    padding: 10px 20px;
+    transition: all 0.4s ease-in-out;
 }
 
 .product-btn svg {
     width: 24px;
     height: 24px;
-    fill: currentColor;
 }
 
-.product-btn-filled,
-.product-btn-outline {
-    background: transparent;
-    color: #f26727;
+.product-btn svg path {
+    transition: all 0.4s ease-in-out;
 }
 
-.product-btn-filled:hover,
-.product-btn-outline:hover {
+
+.product-btn:hover,
+.product-btn:active,
+.product-btn:focus {
     background: #f26727;
     border-color: #f26727;
     color: #ffffff;
+}
+
+.product-btn:hover svg path {
+    fill: #FFFFFF;
 }
