@@ -127,6 +127,10 @@ h6 {
     --body-text: #484d55;
 }
 
+.ptb-120 {
+    padding-block: 120px;
+}
+
 .site-header {
     padding: 26px 0 20px;
 }
@@ -178,14 +182,9 @@ h6 {
 
 .hero {
     min-height: 810px;
-
-    .hero {
-        min-height: 810px;
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        background-size: cover;
-    }
-
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
 }
 
 .hero-container {
@@ -362,7 +361,6 @@ h6 {
     overflow: hidden;
     /* padding: 52px 0 44px; */
     background: #fff1ea;
-    height: 973px;
     z-index: 0;
 }
 
@@ -398,7 +396,6 @@ h6 {
     justify-content: center;
     width: 200px;
     height: 40px;
-    margin-top: 120px;
     border-radius: 60px;
     background: #e6dfcf;
 }
@@ -509,4 +506,49 @@ h6 {
 
 .product-btn:hover svg path {
     fill: #FFFFFF;
+}
+
+.quality-section {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.qua-desc h3 {
+    color: #A1A1A1;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    margin-bottom: 10px;
+}
+
+.qua-desc b {
+    color: #F26727;
+}
+
+.qua-desc p {
+    color: #A1A1A1;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.know-btn {
+    width: 165px;
+    height: 44px;
+    padding: 9.6px 23.2px;
+    border-radius: 5.6px;
+    background-color: #066B38;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.know-btn:hover,
+.know-btn:focus {
+    background-color: #066B38;
+    border-color: #066B38;
+    color: #ffffff;
 }
