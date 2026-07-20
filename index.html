@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinch and Blend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="site-header bg-white">
+        <div class="container">
+            <div class="header-bar d-flex align-items-center justify-content-between">
+                <a class="navbar-logo-link" href="#home" aria-label="Go to home">
+                    <img src="images/logo.png" alt="Pinch and Blend Logo" class="navbar-logo">
+                </a>
+
+                <nav aria-label="Main navigation">
+                    <ul class="nav align-items-center site-nav flex-nowrap">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#products">Our Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#quality">Quality</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#enquiry">Enquiry</a></li>
+                        <li class="nav-item ms-3"><a class="btn contact-btn" href="#contact">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero" id="home"
+        style="background-image: url(./images/hero-bg.png); background-repeat: no-repeat; background-size: cover;">
+        <div class="container hero-container">
+            <div class="hero-desc">
+                <h1>QUALITY SPICES <br><b>MANUFACTURER &amp; SUPPLIER</b></h1>
+                <p>We Supply Wide Range Of Spices To Areas Of Food Industry And The End Consumer <br> To Desired
+                    Specification.</p>
+                <a href="#products" class="btn hero-btn">View Products</a>
+            </div>
+        </div>
+    </section>
+    <!-- About Us -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="row align-items-center about-row gy-5">
+                <div class="col-lg-6">
+                    <div class="ab-imgs-wrap position-relative">
+                        <div class="ab-img">
+                            <img src="images/about.png" alt="About Us">
+                        </div>
+                        <div class="ab-img1">
+                            <img src="images/seed.png" alt="seed image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-copy">
+                        <div class="about-badge-wrap">
+                            <div class="about-pill" aria-label="About Us">
+                                <img src="images/seed-badge.png" alt="" class="about-pill-icon">
+                                <span class="about-pill-text">About Us</span>
+                            </div>
+                        </div>
+                        <h2>WE ARE PINCH &amp; BLEND <br>LOREM IPSUM DOLOR AMRET</h2>
+                        <h6>Our family owns spice business since 1921, we fall among the oldest contenders in this
+                            field.This itself is a proof that our quality products are being appreciated by our valuable
+                            customers from ages.</h6>
+                        <p>Our experience and consistency help us move towards the verge of excellence. We not only
+                            supply spices, but also carry all the knowledge about our products. Which enable us to
+                            provide the
+                            best of service and products.</p>
+                        <a href="#products" class="btn about-btn">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="about-footer row align-items-end gy-4">
+                <div class="col-7 col-lg">
+                    <p>PREMIUM QUALITY <br>SEEDS &amp; SPICES SINCE</p>
+                </div>
+                <div class="col-12 col-lg-auto">
+                    <div class="about-year" aria-label="Since 1921">
+                        <img src="images/seed-num.png" alt="seed-number photo" class="about-year-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Products -->
+    <section class="products-section" id="products">
+        <div class="container products-shell">
+            <img src="images/masala.png" alt="masala" class="products-masala-art">
+            <img src="images/flower.png" alt="flower" class="products-flower-art">
+            <div class="row">
+                <div class="col-12">
+                    <div class="products-heading">
+                        <div class="products-pill" aria-label="Our Products">
+                            <img src="images/seed-badge.png" alt="" class="products-pill-icon">
+                            <span>OUR PRODUCTS</span>
+                        </div>
+                        <h2>WE ARE <span>MANUFACTURER</span> &amp; EXPORTER<br>OF <span>SPICES</span> PRODUCTS</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row products-grid justify-content-center">
+                <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                    <article class="product-card">
+                        <img src="images/pack.png" alt="Chilli Powder" class="product-pack">
+                        <div class="product-card-body">
+                            <h3>CHILLI POWDER</h3>
+                            <p>It is a long established fact that a reader will be distracted.</p>
+                            <div class="product-price">&#8377;50.00</div>
+                            <a href="#contact" class="product-btn product-btn-outline">
+                                <span>Add to Cart</span>
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M8 18C6.9 18 6 18.9 6 20C6 21.1 6.9 22 8 22C9.1 22 10 21.1 10 20C10 18.9 9.1 18 8 18ZM17 18C15.9 18 15 18.9 15 20C15 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18ZM7.2 14.8L7.9 13.5H17.3C18 13.5 18.6 13.1 18.9 12.5L22.5 5.4L20.8 4.5L17.3 11.5H8.3L3.9 2H1V4H2.6L6.2 11.6L4.9 14C4.7 14.3 4.6 14.7 4.6 15C4.6 16.1 5.5 17 6.6 17H19V15H7C6.9 15 6.8 14.9 6.8 14.8C6.8 14.8 6.8 14.8 7.2 14.8Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                    <article class="product-card">
+                        <img src="images/pack.png" alt="Turmeric Powder" class="product-pack">
+                        <div class="product-card-body">
+                            <h3>TURMERIC POWDER</h3>
+                            <p>It is a long established fact that a reader will be distracted.</p>
+                            <div class="product-price">&#8377;65.00</div>
+                            <a href="#contact" class="product-btn product-btn-outline">
+                                <span>Add to Cart</span>
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M8 18C6.9 18 6 18.9 6 20C6 21.1 6.9 22 8 22C9.1 22 10 21.1 10 20C10 18.9 9.1 18 8 18ZM17 18C15.9 18 15 18.9 15 20C15 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18ZM7.2 14.8L7.9 13.5H17.3C18 13.5 18.6 13.1 18.9 12.5L22.5 5.4L20.8 4.5L17.3 11.5H8.3L3.9 2H1V4H2.6L6.2 11.6L4.9 14C4.7 14.3 4.6 14.7 4.6 15C4.6 16.1 5.5 17 6.6 17H19V15H7C6.9 15 6.8 14.9 6.8 14.8C6.8 14.8 6.8 14.8 7.2 14.8Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+                    <article class="product-card">
+                        <img src="images/pack.png" alt="Coriander Cumin Powder" class="product-pack">
+                        <div class="product-card-body">
+                            <h3>CORIANDER CUMIN POWDER</h3>
+                            <p>It is a long established fact that a reader will be distracted.</p>
+                            <div class="product-price">&#8377;70.00</div>
+                            <a href="#contact" class="product-btn product-btn-outline">
+                                <span>Add to Cart</span>
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        d="M8 18C6.9 18 6 18.9 6 20C6 21.1 6.9 22 8 22C9.1 22 10 21.1 10 20C10 18.9 9.1 18 8 18ZM17 18C15.9 18 15 18.9 15 20C15 21.1 15.9 22 17 22C18.1 22 19 21.1 19 20C19 18.9 18.1 18 17 18ZM7.2 14.8L7.9 13.5H17.3C18 13.5 18.6 13.1 18.9 12.5L22.5 5.4L20.8 4.5L17.3 11.5H8.3L3.9 2H1V4H2.6L6.2 11.6L4.9 14C4.7 14.3 4.6 14.7 4.6 15C4.6 16.1 5.5 17 6.6 17H19V15H7C6.9 15 6.8 14.9 6.8 14.8C6.8 14.8 6.8 14.8 7.2 14.8Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
