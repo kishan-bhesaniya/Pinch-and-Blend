@@ -155,7 +155,7 @@ h6 {
 
 .site-nav .nav-link.active,
 .site-nav .nav-link:hover {
-    color: #066B38;
+    background-color: var(--brand-green);
     font-weight: 700;
     text-decoration: underline;
     text-decoration-thickness: 2px;
@@ -175,7 +175,7 @@ h6 {
 
 .contact-btn:hover,
 .contact-btn:focus {
-    background-color: #066B38;
+    background-color: var(--brand-green);
     border-color: #066B38;
     color: #ffffff;
 }
@@ -229,7 +229,7 @@ h6 {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #066B38;
+    background-color: var(--brand-green);
     border-color: #066B38;
     color: #ffffff;
 }
@@ -340,7 +340,7 @@ h6 {
 
 .about-btn:hover,
 .about-btn:focus {
-    background-color: #066B38;
+    background-color: var(--brand-green);
     color: #ffffff;
 }
 
@@ -548,7 +548,7 @@ h6 {
 
 .know-btn:hover,
 .know-btn:focus {
-    background-color: #066B38;
+    background-color: var(--brand-green);
     border-color: #066B38;
     color: #ffffff;
 }
