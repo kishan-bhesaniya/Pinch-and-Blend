@@ -135,13 +135,8 @@ h6 {
     padding: 26px 0 20px;
 }
 
-.header-bar {
-    height: 88px;
-}
-
 .navbar-logo {
-    width: 132px;
-    height: 88px;
+
     display: block;
 }
 
@@ -162,9 +157,7 @@ h6 {
 }
 
 .contact-btn {
-    width: 142px;
-    height: 44px;
-    padding: 9.6px;
+    padding: 7px 33px;
     text-align: center;
     background-color: #066B38;
     border-radius: 6px;
@@ -216,9 +209,7 @@ h6 {
 }
 
 .hero-btn {
-    width: 165px;
-    height: 44px;
-    padding: 9.6px 23.2px;
+    padding: 7px 33px;
     border-radius: 5.6px;
     background-color: #066B38;
     color: #ffffff;
@@ -270,7 +261,6 @@ h6 {
     top: 30px;
     left: 36px;
     cursor: pointer;
-
 }
 
 .about-badge-wrap {
@@ -280,26 +270,14 @@ h6 {
 .about-pill {
     display: flex;
     align-items: center;
-    width: 155px;
-    height: 40px;
-    margin-right: 20px;
-    padding: 20px;
+    gap: 4px;
+    padding: 5px 20px;
     border-radius: 60px;
     background: #e7f0ec;
-}
-
-.about-pill-icon {
-    width: 29.1px;
-    height: 21.6px;
-    display: block;
-    flex-shrink: 0;
-}
-
-.about-pill-text {
-    color: #066B38;
     font-family: 'Outfit', sans-serif;
+    color: #066B38;
     font-weight: 800;
-    line-height: 1;
+    width: fit-content;
 }
 
 .about-copy h2 {
@@ -327,9 +305,7 @@ h6 {
 }
 
 .about-btn {
-    width: 145px;
-    height: 44px;
-    padding: 9px 5px;
+    padding: 7px 33px;
     border-radius: 6px;
     background-color: #066B38;
     color: #ffffff;
@@ -366,8 +342,6 @@ h6 {
     position: absolute;
     right: 0;
     top: 0;
-    width: 305px;
-    height: 236px;
     mix-blend-mode: multiply;
 }
 
@@ -375,32 +349,24 @@ h6 {
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 122px;
-    height: 387px;
     mix-blend-mode: multiply;
 }
 
 .products-heading {
     position: relative;
     z-index: 2;
-    width: 100%;
     padding-top: 8px;
     text-align: center;
 }
 
 .products-badge {
     display: inline-flex;
+    gap: 4px;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 40px;
+    padding: 5px 20px;
     border-radius: 60px;
     background: #e6dfcf;
-}
-
-.products-badge-icon {
-    width: 24px;
-    height: 18px;
 }
 
 .products-badge span {
@@ -453,7 +419,6 @@ h6 {
 }
 
 .pro-disc p {
-    width: 100%;
     font-size: 17px;
     line-height: 26px;
     color: #5b5b5b;
@@ -482,11 +447,6 @@ h6 {
     color: #f26727;
     padding: 10px 20px;
     transition: all 0.4s ease-in-out;
-}
-
-.product-btn svg {
-    width: 24px;
-    height: 24px;
 }
 
 .product-btn svg path {
@@ -533,9 +493,8 @@ h6 {
 }
 
 .know-btn {
-    width: 165px;
-    height: 44px;
-    padding: 9.6px 23.2px;
+
+    padding: 7px 33px;
     border-radius: 5.6px;
     background-color: #066B38;
     color: #ffffff;
@@ -555,8 +514,8 @@ h6 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 40px;
+    gap: 4px;
+    padding: 5px 20px;
     border-radius: 60px;
     background: rgba(255, 255, 255, 0.1);
     margin-bottom: 16px;
@@ -610,18 +569,13 @@ h6 {
 
 .org-badge {
     display: inline-flex;
-    gap: 3;
+    gap: 3px;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 40px;
+    padding: 1px 20px;
     border-radius: 60px;
     background: rgb(6, 107, 57, 0.10);
-}
-
-.org-badge-icon {
-    width: 24px;
-    height: 18px;
+    font-family: 'Outfit', sans-serif;
 }
 
 .org-badge span {
@@ -638,8 +592,7 @@ h6 {
 }
 
 .orgcir-img {
-    width: 180px;
-    height: 180px;
+    padding: 40px 42px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -659,11 +612,6 @@ h6 {
     justify-content: center;
     position: relative;
     padding-top: 330px;
-}
-
-.orgcir-img1 {
-    max-width: 96px;
-    min-height: 60px;
 }
 
 .orgcir-box {
@@ -731,7 +679,6 @@ h6 {
 .us-section {
     position: relative;
     background: oklch(98.6% 0.031 120.757);
-    height: 658px;
 }
 
 .us-img {
