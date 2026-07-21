@@ -610,6 +610,7 @@ h6 {
 
 .org-badge {
     display: inline-flex;
+    gap: 3;
     align-items: center;
     justify-content: center;
     width: 200px;
@@ -725,4 +726,70 @@ h6 {
     position: absolute;
     top: -30px;
     right: -210px;
+}
+
+.us-section {
+    position: relative;
+    background: oklch(98.6% 0.031 120.757);
+    height: 658px;
+}
+
+.us-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.us-heading {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 50px;
+    margin-top: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+.us-heading h2 {
+    font-size: 36px;
+    line-height: 44px;
+    color: #333333;
+    margin-bottom: 12px;
+    margin-top: 16px;
+}
+
+.us-heading h2 span {
+    color: #066B38;
+}
+
+.us-heading p {
+    color: #5B5B5B;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+
+.us-card {
+    padding: 30px 20px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+}
+
+.us-card img {
+    margin-bottom: 14px;
+}
+
+.us-card h4 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+.us-card p {
+    font-family: 'Outfit', sans-serif;
+    color: #717170;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 9px;
 }
