@@ -959,3 +959,51 @@ footer::before {
 .progell-inner img+img {
     margin-top: 0;
 }
+
+section#prod-gallary {
+    overflow: hidden;
+}
+
+section#feedback {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1499px) {
+    .progell-grid {
+        max-height: 670px;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .pbhm-about .title h2 {
+        max-width: 93%;
+    }
+
+    .about-footer h3 {
+        font-size: 53px;
+        line-height: 69px;
+    }
+
+    .progell-grid {
+        max-height: 640px;
+    }
+
+    .contact-card {
+        max-width: 504px;
+        min-height: 411px;
+    }
+}
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-color: lightblue;
+    }
+}
