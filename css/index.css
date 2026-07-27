@@ -1018,7 +1018,7 @@ h6 {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 24px;
+    padding: 24px 0;
     border-top: 1px solid rgba(240, 242, 251, 0.1);
 }
 
@@ -1034,8 +1034,4 @@ h6 {
     font-size: 12px;
     transition: .3s;
     margin-right: 10px;
-}
-
-.bottom-links a:hover {
-    color: #ff6b2c;
 }
