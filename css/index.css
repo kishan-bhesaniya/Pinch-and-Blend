@@ -901,7 +901,7 @@ footer::before {
     transition: all .3s ease-in-out;
 }
 
-.social-icons path:hover {
+.social-icons a:hover path {
     fill: #f26727;
 }
 
