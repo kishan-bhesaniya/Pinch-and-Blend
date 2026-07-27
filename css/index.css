@@ -315,7 +315,7 @@ h6 {
     color: #F26727;
 }
 
-.about-section .title h2 {
+.pb-about .title h2 {
     max-width: 83%;
 }
 
@@ -368,7 +368,7 @@ h6 {
     margin-bottom: 0;
 }
 
-.products-section {
+.pb-product {
     position: relative;
     overflow: hidden;
     background: #fff1ea;
@@ -471,7 +471,7 @@ h6 {
 }
 
 
-.organic-section {
+.pb-organic {
     position: relative;
     overflow: hidden;
     background: #ffffff;
@@ -621,7 +621,7 @@ h6 {
     right: -210px;
 }
 
-.us-section {
+.pb-why-us {
     position: relative;
     background: oklch(98.6% 0.031 120.757);
 }
@@ -686,7 +686,7 @@ h6 {
     margin-top: 9px;
 }
 
-.sas-section {
+.pb-satisfaction {
     position: relative;
 }
 
@@ -739,7 +739,7 @@ h6 {
     margin-right: 15px;
 }
 
-.prod-section {
+.pb-pro-gallary {
     background: rgb(242, 164, 39, 0.1);
 }
 
@@ -812,17 +812,14 @@ h6 {
     width: 15px;
 }
 
-.spice-section {
+.pb-spice {
     min-height: 500px;
     position: relative;
+    margin-top: 120px;
 }
 
 .spice-form {
     position: absolute;
-}
-
-.spice-section {
-    margin-top: 120px;
 }
 
 .contact-card {
