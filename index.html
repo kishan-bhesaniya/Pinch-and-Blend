@@ -21,25 +21,34 @@
 
 <body>
     <!-- Header -->
-    <header class="header bg-white">
-        <div class="container">
-            <div class="header-bar d-flex align-items-center justify-content-between">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
                 <a class="navbar-logo-link" href="#home" aria-label="Go to home">
                     <img src="images/logo.png" alt="Pinch and Blend Logo" class="navbar-logo">
                 </a>
-
-                <nav aria-label="Main navigation">
-                    <ul class="nav align-items-center site-nav flex-nowrap">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#products">Our Products</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#quality">Quality</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#spice">Enquiry</a></li>
-                        <li class="nav-item ms-3"><a class="btn contact-btn" href="#footer">Contact Us</a></li>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav align-items-center ms-auto">
+                        <li class="nav-item">
+                            <a class="active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#products">Our Products</a>
+                        </li>
+                        <li class="nav-item"><a href="#quality">Quality</a></li>
+                        <li class="nav-item"><a href="#spice">Enquiry</a></li>
+                        <li class="nav-item"><a href="#footer">Contact Us</a></li>
                     </ul>
-                </nav>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
     <!-- Hero Section -->
     <section class="pbhm-banner" id="home"

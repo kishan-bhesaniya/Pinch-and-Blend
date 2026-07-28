@@ -139,40 +139,51 @@ h6 {
 }
 
 .header {
-    padding: 26px 0 20px;
+    padding: 30px 0;
+}
+
+.header .navbar {
+    padding: 0;
 }
 
 .navbar-logo {
     display: block;
 }
 
-.site-nav .nav-link {
-    padding: 5.6px 12px;
+.header .nav-item a {
     font-size: 15px;
     font-weight: 500;
     color: #161616;
     transition: none;
 }
 
-.site-nav .nav-link.active,
-.site-nav .nav-link:hover {
+.header .nav-item+.nav-item {
+    margin-left: 36px;
+}
+
+.header .nav-item a:active,
+.header .nav-item a:hover {
     font-weight: 700;
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 4px;
+    box-shadow: #0b6b34;
+    color: #066B38;
 }
 
-.contact-btn {
+.header .nav-item:last-child a {
     padding: 7px 33px;
     text-align: center;
     background-color: #066B38;
     border-radius: 6px;
     color: #ffffff;
     font-weight: 700;
+    text-decoration: none;
+
 }
 
-.contact-btn:hover,
-.contact-btn:focus {
+.header .nav-item:last-child a:hover,
+.header .nav-item:last-child a:focus {
     background-color: var(--brand-green);
     border-color: #066B38;
     color: #ffffff;
@@ -985,6 +996,12 @@ section#feedback {
         max-width: 93%;
     }
 
+    .bg-body-tertiary {
+        padding: 0.75rem 1.25rem;
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+    }
+
     .about-footer h3 {
         font-size: 53px;
         line-height: 69px;
@@ -1011,10 +1028,6 @@ section#feedback {
 
     .navbar-logo {
         max-width: 80%;
-    }
-
-    .header {
-        padding: 10px 0;
     }
 
     .pbhm-banner {
@@ -1346,13 +1359,9 @@ section#feedback {
 }
 
 @media screen and (max-width: 991px) {
-    body {
-        background-color: lightblue;
+    .header {
+        padding: 20px 0;
     }
 }
 
-@media screen and (max-width: 767px) {
-    body {
-        background-color: lightblue;
-    }
-}
+@media screen and (max-width: 767px) {}
