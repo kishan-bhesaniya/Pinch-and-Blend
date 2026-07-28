@@ -1121,10 +1121,15 @@ section#feedback {
         width: 100%;
     }
 
-    .title h2 {
+    #quality .title h2 {
         font-size: 28px;
         line-height: 38px;
         max-width: 90%;
+    }
+
+    .title h2 {
+        font-size: 28px;
+        line-height: 38px;
     }
 
     .pbhmpro-1 img {
@@ -1138,16 +1143,12 @@ section#feedback {
     .pro-disc p {
         font-size: 15px;
         line-height: 24px;
-        color: #5b5b5b;
-        margin-bottom: 22px;
     }
 
     .pro-disc h4 {
         margin-bottom: 22px;
         font-size: 22px;
         line-height: 28px;
-        font-weight: 800;
-        color: #066B38;
     }
 
     .product-btn {
@@ -1205,6 +1206,32 @@ section#feedback {
     .org-circl-wrap .orgcir-box:nth-child(5) {
         bottom: 35px;
         right: -145px;
+    }
+
+    .org-center-img {
+        height: 60px;
+    }
+
+    .org-left-img {
+        height: 60px;
+    }
+
+    .org-right-img {
+        height: 60px;
+    }
+
+    .us-card {
+        padding: 25px 9px;
+    }
+
+    .us-card p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .us-card img {
+        margin-bottom: 14px;
+        height: 40px;
     }
 }
 
