@@ -237,7 +237,6 @@ h6 {
     display: flex;
     justify-content: end;
     align-items: center;
-
 }
 
 .ab-img1 {
@@ -250,12 +249,18 @@ h6 {
 .ab-play {
     position: absolute;
     width: 90px;
-    height: 91px;
-    left: 190px;
-    top: 206px;
+    height: 90px;
+    left: 50%;
+    top: 50%;
     background: #F26727;
+    transform: translate(-50%, -50%);
     border-radius: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .play {
     position: absolute;
@@ -380,6 +385,7 @@ h6 {
     mix-blend-mode: multiply;
     height: fit-content;
     width: fit-content;
+    z-index: -1;
 }
 
 .pbhmpro-1 {
@@ -994,7 +1000,171 @@ section#feedback {
     }
 }
 
-@media screen and (max-width: 1199px) {}
+@media screen and (max-width: 1199px) {
+    .ptb-120 {
+        padding-block: 90px;
+    }
+
+    .navbar-logo {
+        max-width: 80%;
+    }
+
+    .header {
+        padding: 10px 0;
+    }
+
+    .pbhm-banner {
+        min-height: 600px;
+    }
+
+    .pbhm-banner-desc h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .pbhm-banner-desc h1 b {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .pbhm-banner-desc {
+        padding-top: 100px;
+    }
+
+    .pbhm-banner-desc p {
+        margin-bottom: 18px;
+        font-size: 18px;
+        line-height: 28px;
+        color: #333333;
+    }
+
+    .contact-btn {
+        padding: 7px 19px;
+    }
+
+    .default-btn {
+        padding: 7px 19px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .ab-img {
+        max-width: 80%;
+    }
+
+    .ab-img img {
+        max-width: 100%;
+    }
+
+    .ab-img1 {
+        position: absolute;
+        bottom: 0;
+        left: -7px;
+        z-index: 1;
+    }
+
+    .ab-img1 img {
+        width: 80%;
+    }
+
+    .ab-play {
+        width: 70px;
+        height: 70px;
+    }
+
+    .play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .title-design {
+        padding: 7px 18px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .pbhm-about .title h2 {
+        max-width: 100%;
+    }
+
+    .title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .title p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .btn-inner {
+        margin-top: 20px;
+    }
+
+    .title p+p {
+        margin-top: 0;
+    }
+
+    .title-design img {
+        height: 18px;
+        width: 20px;
+    }
+
+    .about-footer h3 {
+        font-size: 44px;
+        line-height: 58px;
+    }
+
+    .about-year-icon {
+        width: 100%;
+    }
+
+    .title h2 {
+        font-size: 28px;
+        line-height: 38px;
+        max-width: 90%;
+    }
+
+    .pbhmpro-1 img {
+        max-width: 250px;
+    }
+
+    .pro-disc {
+        padding: 10px 25px 25px;
+    }
+
+    .pro-disc p {
+        font-size: 15px;
+        line-height: 24px;
+        color: #5b5b5b;
+        margin-bottom: 22px;
+    }
+
+    .pro-disc h4 {
+        margin-bottom: 22px;
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 800;
+        color: #066B38;
+    }
+
+    .product-btn {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 6px 15px;
+    }
+
+    .product-img img {
+        height: 230px;
+    }
+
+    .pro-disc h3 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+}
 
 @media screen and (max-width: 991px) {
     body {
