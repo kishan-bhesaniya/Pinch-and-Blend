@@ -1104,7 +1104,7 @@ section#feedback {
     }
 
     .title p+p {
-        margin-top: 0;
+        margin-top: 10px;
     }
 
     .title-design img {
@@ -1163,6 +1163,48 @@ section#feedback {
     .pro-disc h3 {
         font-size: 17px;
         line-height: 24px;
+    }
+
+    .orgcir-img {
+        padding: 20px 22px;
+    }
+
+    .org-img img {
+        height: 300px;
+    }
+
+    .orgcir-img img {
+        height: 70px;
+    }
+
+    .org-circl-wrap {
+        padding-top: 250px;
+    }
+
+    .org-circl-wrap .orgcir-box:nth-child(4) {
+        top: 175px;
+        left: -30px;
+    }
+
+    .org-circl-wrap .orgcir-box:nth-child(3) {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .org-circl-wrap .orgcir-box:nth-child(2) {
+        top: 175px;
+        right: -30px;
+    }
+
+    .org-circl-wrap .orgcir-box:nth-child(1) {
+        bottom: 35px;
+        left: -145px;
+    }
+
+    .org-circl-wrap .orgcir-box:nth-child(5) {
+        bottom: 35px;
+        right: -145px;
     }
 }
 
