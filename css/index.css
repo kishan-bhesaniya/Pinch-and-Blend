@@ -1873,7 +1873,7 @@ section#feedback {
     }
 
     .title:has(h2+p) h2 {
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
 
     .title h2 {
@@ -1911,11 +1911,11 @@ section#feedback {
     }
 
     .pro-disc p {
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
 
     .pro-disc h4 {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         font-size: 20px;
         line-height: 20px;
     }
@@ -1928,7 +1928,7 @@ section#feedback {
 
     #quality .title h2 {
         font-size: 17px;
-        line-height: 30px;
+        line-height: 25px;
         max-width: 100%;
     }
 
@@ -1989,7 +1989,7 @@ section#feedback {
     }
 
     .sas-wrap {
-        padding: 15px 20px;
+        padding: 25px 20px;
     }
 
     .sas-img img {
