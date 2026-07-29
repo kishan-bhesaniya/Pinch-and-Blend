@@ -1450,7 +1450,7 @@ section#feedback {
         overflow: auto;
     }
 
-    .menu img{
+    .menu img {
         width: 30px;
     }
 
@@ -1786,6 +1786,11 @@ section#feedback {
         padding: 20px 0;
     }
 
+    .footer-logo {
+        max-width: 15%;
+        margin-bottom: 15px;
+    }
+
     footer {
         padding: 60px 0 0;
         position: relative;
@@ -2013,10 +2018,30 @@ section#feedback {
     }
 
     .contact-card {
-        max-width: 275px;
+        max-width: 100%;
     }
 
     .contact-card {
-        right: 62px;
+        right: 25px;
+    }
+
+    .pbhm-spice {
+        min-height: 500px;
+        position: relative;
+        margin-top: 0;
+        padding: 50px 0;
+    }
+
+    .contact-card {
+        position: static;
+    }
+
+    .footer-logo {
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    .navbar-logo {
+        max-width: 50%;
     }
 }
