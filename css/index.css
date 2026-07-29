@@ -1170,11 +1170,16 @@ section#feedback {
 
     .pro-disc {
         padding: 10px 25px 25px;
+
+        svg {
+            max-width: 18%;
+        }
     }
+
 
     .pro-disc p {
         font-size: 15px;
-        line-height: 24px;
+        line-height: 20px;
     }
 
     .pro-disc h4 {
@@ -1347,8 +1352,8 @@ section#feedback {
 
     .contact-card p {
         line-height: 20px;
-        font-size: 16px;
-        margin-bottom: 15px;
+        font-size: 14px;
+        margin-bottom: 13px;
     }
 
     .enquire-btn {
@@ -1737,7 +1742,7 @@ section#feedback {
     }
 
     .contact-card h5 {
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 5px;
     }
 
@@ -1787,7 +1792,7 @@ section#feedback {
     }
 
     .footer-logo {
-        max-width: 15%;
+        max-width: 30%;
         margin-bottom: 15px;
     }
 
