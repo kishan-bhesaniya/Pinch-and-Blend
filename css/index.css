@@ -152,7 +152,8 @@ h6 {
 
 .header .nav-item a {
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 100%;
     color: #161616;
     transition: none;
 }
@@ -333,6 +334,12 @@ h6 {
 
 .pbhm-about .title h2 {
     max-width: 83%;
+}
+
+.navbar-toggler {
+    padding: 0;
+    border: none;
+    box-shadow: none !important;
 }
 
 .title p {
@@ -958,23 +965,22 @@ footer::before {
     overflow: hidden;
 }
 
+.progell-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .progell-box img {
     width: 100%;
     /* height: 100%; */
     object-fit: cover;
 }
 
-.progell-box img+img {
-    margin-top: 15px;
-}
 
 .progell-inner {
     display: flex;
     gap: 15px;
-}
-
-.progell-inner+.progell-inner {
-    margin-top: 15px;
 }
 
 .progell-inner img+img {
@@ -1017,7 +1023,7 @@ section#feedback {
     }
 
     .progell-grid {
-        max-height: 640px;
+        max-height: 590px;
     }
 
     .contact-card {
@@ -1069,7 +1075,7 @@ section#feedback {
     }
 
     .default-btn {
-        padding: 7px 19px;
+        padding: 6px 19px;
         font-size: 14px;
         font-weight: 500;
     }
@@ -1248,7 +1254,8 @@ section#feedback {
     }
 
     .us-card {
-        padding: 25px 9px;
+        padding: 20px 15px;
+        height: 100%;
     }
 
     .us-card p {
@@ -1262,7 +1269,7 @@ section#feedback {
     }
 
     .sas-img img {
-        height: 200px;
+        max-width: 100%;
     }
 
     .sas-box {
@@ -1280,11 +1287,20 @@ section#feedback {
     }
 
     .progell-grid {
-        max-height: 480px;
+        max-height: 470px;
+    }
+
+    .progell-grid,
+    .progell-box {
+        gap: 10px;
+    }
+
+    .testi-swiper .swiper-slide {
+        transform: translateY(50px);
     }
 
     .sw-main {
-        padding: 20px 30px;
+        padding: 30px 40px;
     }
 
     .sw-main p:nth-child(1) {
@@ -1338,7 +1354,7 @@ section#feedback {
 
     .enquire-btn {
         font-size: 16px;
-        padding: 10px;
+        padding: 4px;
     }
 
     .contact-card {
@@ -1371,10 +1387,10 @@ section#feedback {
         margin-top: 40px;
     }
 
-    .sas-wrap {
-        border-radius: 20px;
-        padding: 10px 20px;
+    .testi-swiper .swiper-slide {
+        transform: translateY(50px);
     }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -1430,7 +1446,7 @@ section#feedback {
     }
 
     .mtb-120 {
-        margin: 90px;
+        margin-block: 90px;
     }
 
     .ab-img1 {
@@ -1577,16 +1593,6 @@ section#feedback {
 
     .progell-grid {
         max-height: 360px;
-        gap: 10px
-    }
-
-    .progell-inner {
-        display: flex;
-        gap: 10px;
-    }
-
-    .progell-inner+.progell-inner {
-        margin-top: 10px;
     }
 
     .sw-main {
@@ -1616,6 +1622,7 @@ section#feedback {
 
     .sw-main img {
         margin-top: 10px;
+        width: 30%;
     }
 
     .sw-main p {
@@ -1697,10 +1704,6 @@ section#feedback {
         padding: 20px 0;
     }
 
-    .progell-box img+img {
-        margin-top: 4px;
-    }
-
     footer {
         padding: 60px 0 0;
         position: relative;
@@ -1708,8 +1711,8 @@ section#feedback {
         margin-top: -70px;
     }
 
-    #satisfaction .row {
-        row-gap: 0;
+    .testi-swiper .swiper-slide {
+        transform: translateY(40px);
     }
 
     .sas-wrap {
@@ -1721,4 +1724,217 @@ section#feedback {
     }
 }
 
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+    .mtb-120 {
+        margin-block: 40px;
+    }
+
+    .ptb-120 {
+        padding-block: 40px;
+    }
+
+    .pbhm-banner {
+        min-height: 350px;
+    }
+
+    .pbhm-banner-desc {
+        padding-top: 30px;
+    }
+
+    .ab-img {
+        max-width: 100%;
+    }
+
+    .ab-img1 img {
+        display: none;
+    }
+
+    .pbhm-banner-desc h1 {
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 100%;
+    }
+
+    .pbhm-banner-desc h1 b {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .pbhm-banner-desc p {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .default-btn {
+        padding: 3px 7px;
+        font-size: 10px;
+    }
+
+    .title-design img {
+        height: 15px;
+        width: 16px;
+    }
+
+    .pbhm-about .title h2 {
+        max-width: 100%;
+    }
+
+    .title:has(h2+p) h2 {
+        margin-bottom: 0;
+    }
+
+    .title h2 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .title p+p {
+        margin-top: 3px;
+    }
+
+    .btn-inner {
+        margin-top: 10px;
+    }
+
+    .about-footer h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .pbhmpro-1 img {
+        display: none;
+    }
+
+    .pbhmpro-2 {
+        display: none;
+    }
+
+    .product-img img {
+        height: 130px;
+    }
+
+    .product-card::before {
+        top: 85px;
+    }
+
+    .pro-disc p {
+        margin-bottom: 0;
+    }
+
+    .pro-disc h4 {
+        margin-bottom: 5px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .product-btn {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 2px 8px;
+    }
+
+    #quality .title h2 {
+        font-size: 17px;
+        line-height: 30px;
+        max-width: 100%;
+    }
+
+    .title p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .title p {
+        margin-bottom: 8px;
+    }
+
+    #organic .org-chilli img {
+        display: none;
+    }
+
+    .orgcir-img {
+        display: none;
+    }
+
+    .orgcir-box p {
+        display: none;
+    }
+
+    .org-arrow-img {
+        display: none;
+    }
+
+    .org-circl-wrap {
+        padding-top: 0px;
+    }
+
+    .us-img img {
+        display: none;
+    }
+
+    .us-card img {
+        margin-bottom: 4px;
+        height: 30px;
+    }
+
+    .us-card p {
+        font-size: 11px;
+        line-height: 10px;
+    }
+
+    .us-card h4 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .pbhmsas-img img {
+        height: 120px;
+    }
+
+    .pbhmsas-img {
+        top: -50px;
+    }
+
+    .sas-wrap {
+        padding: 15px 20px;
+    }
+
+    .sas-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .sas-box+.sas-box {
+        margin-top: 15px;
+    }
+
+    .sas-box {
+        gap: 0;
+        margin-inline: auto;
+        width: fit-content;
+    }
+
+    .progell-grid {
+        max-height: initial;
+        gap: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .progell-grid .progell-box:nth-child(1) img,
+    .progell-grid .progell-box:nth-child(3) img+img {
+        height: 100%;
+    }
+
+    .testi-swiper .swiper-slide {
+        transform: translateY(20px);
+    }
+
+    .contact-card {
+        max-width: 275px;
+    }
+
+    .contact-card {
+        right: 22px;
+    }
+}
