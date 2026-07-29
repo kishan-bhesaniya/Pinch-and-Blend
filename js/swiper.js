@@ -32,3 +32,9 @@ $(document).ready(function () {
     $(".collapse").addClass("show");
   });
 });
+
+$(document).ready(function () {
+  $(".close-btn").click(function () {
+    $(".collapse").removeClass("show");
+  });
+});
