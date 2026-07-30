@@ -876,8 +876,8 @@ footer::before {
     margin: 0;
 }
 
-.footer-links li {
-    margin-bottom: 10px;
+.footer-links li+li {
+    margin-top: 10px;
 }
 
 .footer-links a {
@@ -1559,15 +1559,14 @@ section#feedback {
     }
 
     .about-footer h3 {
-        font-size: 25px;
+        font-size: 31px;
         line-height: 32px;
     }
 
     .about-year-icon {
-        width: 100%;
-        height: 100px;
+        max-width: 50%;
         display: flex;
-        justify-items: center;
+        margin: 0 auto;
     }
 
     .title-design {
@@ -1822,6 +1821,10 @@ section#feedback {
         margin-block: 40px;
     }
 
+    .mt-50 {
+        margin-top: 15px;
+    }
+
     .ptb-120 {
         padding-block: 40px;
     }
@@ -1883,7 +1886,7 @@ section#feedback {
     }
 
     .title p+p {
-        margin-top: 3px;
+        margin-top: 10px;
     }
 
     .btn-inner {
@@ -1931,9 +1934,9 @@ section#feedback {
     }
 
     .product-btn {
-        font-size: 12px;
-        line-height: 16px;
-        padding: 2px 8px;
+        font-size: 10px;
+        line-height: 14px;
+        padding: 0.4px 6px;
     }
 
     #quality .title h2 {
@@ -1947,10 +1950,6 @@ section#feedback {
         line-height: 16px;
     }
 
-    .title p {
-        margin-bottom: 8px;
-    }
-
     #organic .org-chilli img {
         display: none;
     }
@@ -1961,6 +1960,31 @@ section#feedback {
 
     .orgcir-box p {
         display: none;
+    }
+
+    .footer-title {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+
+    }
+
+    .contact-box p {
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+
+    .enquire-btn {
+        height: 42px;
+    }
+
+    .contact-box a {
+        font-size: 14px;
+    }
+
+    .contact-box+.contact-box {
+        margin: 0;
+        margin-top: 10px;
     }
 
     .org-arrow-img {
