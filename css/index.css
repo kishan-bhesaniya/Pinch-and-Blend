@@ -489,8 +489,11 @@ h6 {
     color: #ffffff;
 }
 
-.product-btn:hover svg path {
+.product-btn:hover svg path,
+.product-btn:active svg path,
+.product-btn:focus svg path {
     fill: #FFFFFF;
+    background: #ffffff;
 }
 
 
