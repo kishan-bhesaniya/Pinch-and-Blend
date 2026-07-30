@@ -618,6 +618,7 @@ h6 {
     background: #FFFFFF;
     border: 1px solid #ECECEC;
     border-radius: 10px;
+    height: 100%;
 }
 
 .us-card img {
@@ -1422,7 +1423,7 @@ section#feedback {
     button.close-btn {
         height: 35px;
         width: 35px;
-        background: #efd7c5;
+        background: #f3e5db;
         border: 0;
         padding: 0;
         border-radius: 50px;
@@ -1894,8 +1895,9 @@ section#feedback {
     }
 
     .about-footer h3 {
-        font-size: 20px;
-        line-height: 25px;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
     }
 
     .pbhmpro-1 img {
@@ -2027,7 +2029,7 @@ section#feedback {
     }
 
     .sas-img img {
-        width: 100%;
+        max-width: 80%;
         height: auto;
     }
 
@@ -2076,8 +2078,12 @@ section#feedback {
     }
 
     .footer-logo {
-        width: 30%;
+        max-width: 20%;
         margin-bottom: 0;
+    }
+
+    .menu img {
+        max-width: 60%;
     }
 
     .navbar-logo {
