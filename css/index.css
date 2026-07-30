@@ -815,7 +815,8 @@ h6 {
     border-radius: 6px;
     font-size: 20px;
     font-weight: 600;
-    padding: 13px;
+    padding: 8px;
+    height: 45px;
 }
 
 .enquire-btn:hover {
@@ -1452,7 +1453,7 @@ section#feedback {
         -webkit-transition: .5s;
         transition: .5s;
         border: 0;
-        overflow: auto;
+        z-index: 99;
     }
 
     .menu img {
@@ -1918,6 +1919,15 @@ section#feedback {
         margin-bottom: 10px;
         font-size: 20px;
         line-height: 20px;
+    }
+
+    .navbar-expand-lg .navbar-collapse.show {
+        right: 0;
+        width: 100%;
+    }
+
+    .footer-bottom {
+        justify-content: center;
     }
 
     .product-btn {
